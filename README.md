@@ -1,51 +1,49 @@
-# GitHub Automation Manager
+# Github Automation Suite
 <div align="center">
-  A streamlined platform for automating GitHub repository management tasks.
+  <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
 ## Badges
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-FFC83D?style=for-the-badge&logo=vite&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%233178C6.svg?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?logo=vite&logoColor=white)
+![Node.js](https://img.shields.io/badge/nodejs-6CAED4.svg?logo=node.js&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?logo=github&logoColor=white)
 
 ## Description
-The GitHub Automation Manager is a comprehensive tool designed to simplify and automate various aspects of GitHub repository management. It provides an intuitive interface for tasks such as repository creation, configuration, and integration with AI services.
+A comprehensive suite of tools designed to automate and manage GitHub repositories efficiently. This project leverages AI capabilities for enhanced automation and provides a user-friendly interface for managing various aspects of your GitHub workflow.
 
 ## Features
-- Automated repository setup and configuration.
-- Integration with Gemini AI for intelligent automation suggestions.
-- Dashboard for monitoring repository activity.
-- Local management capabilities.
-- Settings for customizing automation workflows.
+- Automated repository management tasks.
+- AI-powered insights and suggestions.
+- Centralized dashboard for monitoring and control.
+- Local repository management capabilities.
+- Customizable settings for personalized workflows.
 
 ## Tech Stack
-- **Languages**: TypeScript, JavaScript
-- **Frontend**: React, Vite
-- **Backend**: Node.js
-- **APIs**: GitHub API, Gemini API
+- **Languages:** TypeScript, JavaScript
+- **Frontend:** React, Vite
+- **Backend/Infrastructure:** Node.js, Gemini API, GitHub API
 
 ## Installation
-**Prerequisites:** Node.js and npm/yarn installed.
+**Prerequisites:** Node.js, npm/yarn
 
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
-   cd github-auto-repository-manager
+   git clone [Repository URL]
+   cd github-automation-suite
    ```
 2. Install dependencies:
    ```bash
-   npm install
+   npm install 
    # or
    yarn install
    ```
-3. Set environment variables:
-   Create a `.env.local` file in the root directory and add your API keys:
+3. Create a `.env.local` file in the root directory and add your API keys:
    ```
-   GEMINI_API_KEY=your_gemini_api_key
-   GITHUB_TOKEN=your_github_personal_access_token
+   GEMINI_API_KEY=your_gemini_api_key_here
+   # Add any other necessary API keys or configurations
    ```
-   *Note: Ensure your GitHub token has the necessary permissions.*
 4. Run the development server:
    ```bash
    npm run dev
@@ -54,20 +52,27 @@ The GitHub Automation Manager is a comprehensive tool designed to simplify and a
    ```
 
 ## Usage
-Once the application is running, navigate to `http://localhost:5173` (or the port specified by Vite) in your browser. Use the dashboard to manage repositories, configure automation, and view project statuses.
+After installation, run the application using `npm run dev` or `yarn dev`. Access the application through your browser at the provided local development URL (usually http://localhost:XXXX).
+
+Use the interface to:
+- Navigate to the Dashboard to view project status.
+- Utilize the Automation Hub for setting up automated workflows.
+- Manage local repositories in the Local Manager view.
+- Configure application settings in the Settings view.
 
 ## Screenshots
-![Placeholder for Project Screenshots](https://via.placeholder.com/800x400.png?text=Project+Screenshots+Placeholder)
+![Placeholder for Screenshots](https://via.placeholder.com/800x400.png?text=Screenshots+Coming+Soon)
 
 ## Contribution
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch for your feature (`git checkout -b feature/YourFeatureName`).
-3. Commit your changes (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/YourFeatureName`).
-5. Open a Pull Request.
+Contributions are welcome! Please follow these guidelines:
 
-Please ensure your code adheres to the project's coding standards and includes relevant tests.
+1.  Fork the repository.
+2.  Create a new branch for your feature or bug fix (`git checkout -b feature/your-feature-name`).
+3.  Make your changes and commit them (`git commit -m 'Add some feature'`).
+4.  Push to the branch (`git push origin feature/your-feature-name`).
+5.  Open a Pull Request.
+
+Please ensure your code follows the project's coding standards and includes relevant tests.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
